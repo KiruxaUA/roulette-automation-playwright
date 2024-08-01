@@ -1,0 +1,22 @@
+{
+  "name": "roulette-automation-playwright",
+  "version": "1.0.0",
+  "description": "Test task implementation for CSGOEmpire QA position",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "playwright test --ui"
+  },
+  "keywords": [
+    "playwright",
+    "typescript"
+  ],
+  "author": "Kyrylo Kovalenko",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.45.3",
+    "@types/node": "^22.0.2"
+  }
+}
